@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600&display=swap');
+
+* {
+    @apply
+
+    box-border
+}
+
+body {
+    @apply
+
+    bg-[#374B4A]
+    text-white
+    w-[100vw]
+    h-[100vh]
+    overflow-hidden
+}
+
+.container {
+    @apply
+
+    flex
+    flex-row
+    mx-auto
+    items-center
+    justify-evenly
+    text-center
+    w-full
+    h-full
+}
+
+
+.counter-container {
+    @apply
+
+    flex
+    flex-col
+    items-center
+    justify-center
+    font-roboto-mono
+    mx-auto
+    space-x-0
+    text-5xl
+    md:text-6xl
+}
+
+.counter-container i {
+    @apply
+
+    my-4
+}
+
+.counter-container p {
+    @apply
+
+    text-lg
+}
+
